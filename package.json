@@ -1,0 +1,25 @@
+{
+  "name": "backendsdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha server/tests/*.test.js --timeout 30000",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "built.io": "4.3.0",
+    "express": "4.16.4",
+    "mongodb": "3.1.9",
+    "multer": "1.4.1",
+    "request": "2.88.0"
+  },
+  "devDependencies": {
+    "expect": "23.6.0",
+    "mocha": "5.2.0",
+    "supertest": "3.3.0"
+  }
+}
